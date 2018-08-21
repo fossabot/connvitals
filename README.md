@@ -1,5 +1,6 @@
 # connvitals
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fannania%2Fconnvitals.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fannania%2Fconnvitals?ref=badge_shield)
 
 Checks a machine's connection to a specific host or list of hosts in terms of packet loss, icmp latency, routing, and anything else that winds up getting added.
 
@@ -145,3 +146,7 @@ WW: <Warning> -	<Timestamp>
 Where `WW: ` is prepended both for ease of readability and to differentiate it from an error, `<Warning>` is the warning message, and `<Timestamp>` is the time at which the warning was issued, given in the system's `ctime` format.
 
 In the case that `stderr` is a tty, `connvitals` will attempt to print errors in red and warnings in yellow, using ANSI control sequences (supports all VT/100-compatible terminal emulators).
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fannania%2Fconnvitals.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fannania%2Fconnvitals?ref=badge_large)
